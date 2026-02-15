@@ -1,0 +1,207 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+.listofexposedindividuals, th, td{
+    border: 1px solid white;
+}
+.nav_top{
+    background-color: black;
+    width: auto;
+    height: 80px;
+    border-radius: 20px;
+    animation: slidein 1s ease;
+}
+@keyframes slidein {
+    from {
+        transform: translateX(-900px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+.main_desc{
+    opacity: 0;
+    animation: rise 1s forwards 1.5s;
+    margin-left: 5px;
+}
+.main_header-ANIM {
+    opacity: 0;
+    animation: fadein 0.9s forwards;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }    
+}
+@keyframes  rise{
+    from {
+        opacity: 0;
+        transform: translateY(900px);
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.coprsub{
+    opacity: 0;
+    animation: coprfadein 2s forwards 4s;
+}
+@keyframes coprfadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.roblox {
+    background: transparent;
+    border: none;
+}
+.roblox:hover {
+    cursor: pointer;
+}
+.potemer {
+    background: transparent;
+    border: none;
+}
+.potemer:hover {
+    cursor: not-allowed;
+}
+.coolguy {
+    background: transparent;
+    border: none;
+}
+.coolguy:hover {
+    cursor: pointer;
+}
+.david {
+    background: transparent;
+    border: none;
+}
+.david:hover {
+    cursor: pointer;
+}
+.normal_stuff_coolguy {
+    background: transparent;
+    border: none;
+    overflow: hidden;
+}
+.page_coolguy{
+    border: none;
+    background-color: aqua;
+    overflow: hidden;
+    width: 1100px;
+    border-radius: 20px;
+    border: none    ;
+    height: 850px;
+    color: black;
+}
+.header_coolguy{
+    position: sticky;
+    background-image: url('webassets/coolguyheaderbackground.png');
+    background-repeat: no-repeat;
+    height: 90px;
+    top: 0;
+    width: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    grid-template-columns: 1fr auto 1fr;
+    display: grid;
+
+    /*position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr; 
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    background: aqua; */
+}
+.arrow-back_coolguy {
+    width: 60px;
+    height: auto;
+}
+.roblox_header{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    width: auto;
+    height: 70px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    align-items: center;
+    grid-template-columns: 1fr auto 1fr;
+    display: grid;
+}
+.roblox_leftarrow{
+    width: auto;
+    height: auto;
+}
+.roblox_leftarrow:hover {
+    cursor: pointer;
+}
+.bio_roblox {
+    width: auto;
+    height: auto;
+    animation: fadein_bioroblox 1s ease-in;
+    margin-left: 6px;
+}
+@keyframes fadein_bioroblox {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.tableintroductiononly_roblox {
+    animation: roblox_introtablefadein 0.5s linear;
+    padding-top: 15px;
+}
+@keyframes roblox_introtablefadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.roblox_promotioncontainer {
+    background-color: black;
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+a:link {
+    color: lime;
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+}
+.firsthalf {
+    margin-left: 300px;
+}
+.secondhalf {
+    margin-right: 400px;
+}
+.page_roblox {
+    border: none;
+    background-color: rgb(97, 97, 97);
+    overflow: hidden;
+    width: 1050px;
+    border-radius: 20px;
+    border: none    ;
+    height: 600px;
+    color: black;
+}
